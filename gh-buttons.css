@@ -44,9 +44,9 @@ http://github.com/necolas/css3-github-buttons
 .button.active {
     border-color: #3072b3;
     border-bottom-color: #2a65a0;
-    text-decoration: none; 
-    text-shadow: -1px -1px 0 rgba(0,0,0,0.3); 
-    color: #fff; 
+    text-decoration: none;
+    text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+    color: #fff;
     background-color: #3C8DDE;
     background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#599bdc), to(#3072b3));
     background-image: -moz-linear-gradient(#599bdc, #3072b3);
@@ -286,12 +286,6 @@ http://github.com/necolas/css3-github-buttons
     border-radius: 50em; 
 }
 
-/* ............................................................................................................. Disable */
-
-.button.disable {
-    opacity: 0.5;
-}
-
 /* ............................................................................................................. Big */
 
 .button.big {
@@ -299,6 +293,27 @@ http://github.com/necolas/css3-github-buttons
 }
 
 .button.big.icon:before { top: 0; }
+
+/* ............................................................................................................. Disabled */
+
+.button.disabled {
+color:#D4D4D4;
+}
+
+.button.disabled:hover,
+.button.disabled:focus,
+.button.disabled:active {
+    border-color: #d4d4d4;
+    border-bottom-color: #d4d4d4;
+    text-decoration: none;
+    text-shadow: 1px 1px 0 #fff;
+    color: #D4D4D4;
+    background-color: #ececec;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f4f4f4), to(#ececec));
+    background-image: -moz-linear-gradient(#f4f4f4, #ececec);
+    background-image: -o-linear-gradient(#f4f4f4, #ececec);
+    background-image: linear-gradient(#f4f4f4, #ececec);   
+}
 
 
 /* ------------------------------------------------------------------------------------------------------------- BUTTON GROUPS */
@@ -385,6 +400,13 @@ http://github.com/necolas/css3-github-buttons
     opacity: 0.8;
 }
 
+/* ------------------------------------------------------------------------------------------------------------- BUTTON CONTAINER */
+/* For mixing buttons and button groups, e.g., in a navigation bar */
+
+.button-container .button,
+.button-container .button-group {
+    vertical-align: top;
+}
 /* ------------------------------------------------------------------------------------------------------------- BUTTON CONTAINER */
 /* For mixing buttons and button groups, e.g., in a navigation bar */
 
