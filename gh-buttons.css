@@ -244,7 +244,7 @@ http://github.com/necolas/css3-github-buttons
 
 /* ............................................................................................................. Primary */
 
-.button.primary {
+.button.primary, .button.bold {
     font-weight: bold;
 }
 
