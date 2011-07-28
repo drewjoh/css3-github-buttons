@@ -278,6 +278,36 @@ http://github.com/necolas/css3-github-buttons
     background-image: linear-gradient(#b33630, #dc5f59);
 }
 
+/* ............................................................................................................. Green */
+
+.button.green {
+    color: #009900;
+}
+
+.button.green:hover,
+.button.green:focus,
+.button.green:active {     
+    border-color: #3FB53A;
+    border-bottom-color: #30A02A;
+    color: #fff; 
+    background-color: #5FDC59;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#5FDC59), to(#36B330));
+    background-image: -moz-linear-gradient(#5FDC59, #36B330);
+    background-image: -o-linear-gradient(#5FDC59, #36B330);
+    background-image: linear-gradient(#5FDC59, #36B330);
+}
+
+.button.green:active,
+.button.green.active {   
+    border-color: #30A02A;
+    border-bottom-color: #3FB53A;
+    background-color: #36B330;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#36B330), to(#5FDC59));
+    background-image: -moz-linear-gradient(#36B330, #5FDC59);
+    background-image: -o-linear-gradient(#36B330, #5FDC59);
+    background-image: linear-gradient(#36B330, #5FDC59);
+}
+
 /* ............................................................................................................. Pill */
 
 .button.pill {
