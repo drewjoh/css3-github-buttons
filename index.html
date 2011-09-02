@@ -94,7 +94,7 @@
         <p>If you have a button that triggers a <em>dangerous</em> action, like deleting data, this can be indicated by adding the class <code>danger</code>.</p>
         <div class="example">
             <pre class="prettyprint"><code>&lt;a href="#" class="button danger">Delete post&lt;/a></code></pre>
-            <a href="#button" class="button danger">Delete post</a>
+            <a href="#button" class="button red">Delete post</a>
         </div>
     </div>
     
@@ -105,6 +105,7 @@
         <div class="example">
             <pre class="prettyprint"><code>&lt;a href="#" class="button big">Create Project&lt;/a></code></pre>
             <a href="#button" class="button big">Create Project</a>
+			<a href="#button" class="button big icon trash no-text">&nbsp;</a>
         </div>
     </div>
 
@@ -164,7 +165,7 @@
     &lt;div class="button-group">
         &lt;a href="#" class="button primary">Archive&lt;/a>
         &lt;a href="#" class="button">Report spam&lt;/a>
-        &lt;a href="#" class="button danger">Delete&lt;/a>
+        &lt;a href="#" class="button red">Delete&lt;/a>
     &lt;/div>
                         
     &lt;div class="button-group minor-group">
@@ -178,12 +179,14 @@
                 <div class="button-group">
                     <a href="#button" class="button primary">Archive</a>
                     <a href="#button" class="button">Report spam</a>
-                    <a href="#button" class="button danger">Delete</a>
+                    <a href="#button" class="button red">Delete</a>
+					<a href="#" class="button icon trash red no-text">&nbsp;</a>
                 </div>
                                     
                 <div class="button-group minor-group">
                     <a href="#button" class="button">Move to</a>
-                    <a href="#button" class="button">Labels</a>
+					<a href="#button" class="button">Labels</a>
+					<a href="#button" class="button icon fork no-text">&nbsp;</a>
                 </div>
             </div>
         </div>
@@ -197,6 +200,12 @@
             <pre class="prettyprint"><code>&lt;a href="#" class="button icon search">Search&lt;/a></code></pre>
             <a href="#button" class="button icon search">Search</a>
         </div>
+
+		 <div class="example">
+	        <pre class="prettyprint"><code>&lt;a href="#" class="button icon search">Search&lt;/a></code></pre>
+            <a href="#button" class="button no-text icon search">&nbsp;</a>
+			<a href="#button" class="button icon search">Search</a>
+         </div>
         
         <div class="example">
             <table>
@@ -232,7 +241,7 @@
                 </tr>
                 <tr>
                     <td scope="row"><code>.remove</code></td>
-                    <td><a href="#button" class="button danger icon remove">Remove item</a></td>
+                    <td><a href="#button" class="button red icon remove">Remove item</a></td>
                 </tr>
                 <tr>
                     <td scope="row"><code>.log</code></td>
@@ -324,7 +333,7 @@
                 </tr>
                 <tr>
                     <td scope="row"><code>.trash</code></td>
-                    <td><a href="#button" class="button danger icon trash">Delete post</a></td>
+                    <td><a href="#button" class="button red icon trash">Delete post</a></td>
                 </tr>
                 <tr>
                     <td scope="row"><code>.user</code></td>
