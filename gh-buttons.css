@@ -29,11 +29,7 @@ http://github.com/necolas/css3-github-buttons
     -webkit-background-clip: padding;
     -moz-background-clip: padding;
     -o-background-clip: padding-box; 
-	-webkit-transition: border-color .318s;
-    -moz-transition: border .318s;
-    -o-transition: border-color .318s;
-    transition: border-color .318s;
-    /*background-clip: padding-box;*/ /* commented out due to Opera 11.10 bug */
+	/*background-clip: padding-box;*/ /* commented out due to Opera 11.10 bug */
     -webkit-border-radius: 0.2em; 
     -moz-border-radius: 0.2em; 
     border-radius: 0.2em; 
