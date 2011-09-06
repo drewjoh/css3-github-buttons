@@ -2,7 +2,7 @@
 
 CSS3 GitHub Buttons helps you easily create GitHub-style buttons from links, buttons, and inputs.
 
-Example: [nicolasgallagher.com/lab/css3-github-buttons/](http://nicolasgallagher.com/lab/css3-github-buttons/)
+Example: [http://drewjoh.github.com/css3-github-buttons/](http://drewjoh.github.com/css3-github-buttons/)
 
 ## Buttons ##
 
@@ -23,6 +23,13 @@ If you have a button that triggers a dangerous action, like deleting data, this 
 If you wish to emphasize a specific action you can add the class `big`.
 
     <a href="#" class="button big">Create Project</a>
+
+## Small buttons ##
+
+For smaller buttons you can add the class `small`. This class will not work with icons (below).
+
+    <a href="#" class="button small">Edit Project</a>
+
     
 ## Grouped buttons ##
 
@@ -54,6 +61,12 @@ Displaying a mixture of grouped and standalone buttons, as might be seen in a to
         </div>
     </div>
 
+## Buttons with icons ONLY ##
+
+A range of icons can be added (only for links and buttons) by adding a class of `icon`, `no-text` and any one of the provided icon classes below.  You must replace link text with `&nbsp;` (it cannot be left empty).
+
+    <a href="#" class="button icon search no-text">&nbsp;</a>
+
 ## Buttons with icons ##
 
 A range of icons can be added (only for links and buttons) by adding a class of `icon` and any one of the provided icon classes.
@@ -72,4 +85,4 @@ Public domain: [http://unlicense.org](http://unlicense.org)
 
 ## Acknowledgements ##
 
-Inspired by [Michael Henriksen](http://michaelhenriksen.dk)'s [CSS3 Buttons](http://github.com/michenriksen/css3buttons). Icons from [Iconic pack](http://somerandomdude.com/projects/iconic/).
+Original by [Nicolas Gallagher](http://nicolasgallagher.com)'s [CSS3 Buttons](http://github.com/necolas/css3buttons). Icons from [Iconic pack](http://somerandomdude.com/projects/iconic/).
