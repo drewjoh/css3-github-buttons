@@ -1,7 +1,7 @@
 /* ------------------------------------------
-CSS3 GITHUB BUTTONS (Nicolas Gallagher)
+CSS3 GITHUB BUTTONS (Original by Nicolas Gallagher; revision by Drew Johnston)
 Licensed under Unlicense 
-http://github.com/necolas/css3-github-buttons
+http://github.com/drewjoh/css3-github-buttons
 ------------------------------------------ */
 
 
@@ -28,8 +28,8 @@ http://github.com/necolas/css3-github-buttons
     background-image: linear-gradient(#f4f4f4, #ececec);
     -webkit-background-clip: padding;
     -moz-background-clip: padding;
-    -o-background-clip: padding-box; 
-	/*background-clip: padding-box;*/ /* commented out due to Opera 11.10 bug */
+    -o-background-clip: padding-box;
+    /*background-clip: padding-box;*/ /* commented out due to Opera 11.10 bug */
     -webkit-border-radius: 0.2em; 
     -moz-border-radius: 0.2em; 
     border-radius: 0.2em; 
@@ -323,6 +323,11 @@ http://github.com/necolas/css3-github-buttons
 
 .button.big {
     font-size: 14px; 
+}
+.button.small {
+	height: 10px;
+	margin: 0;
+	padding: 3px 5px;
 }
 
 .button.big.icon:before { top: 0; }
