@@ -270,9 +270,16 @@ http://github.com/drewjoh/css3-github-buttons
 .button.user.icon:active:before,
 .button.user.icon.active:before { background-position: -12px -360px; }
 
+/* no-text option */
 .button.no-text:before {
 	margin: 0 -0.2em 0 0.1em;
 }
+/* Special consideration for the arrowright icon, because it normally floats right and has margins. */
+.button.no-text.arrowright.icon:before {  float:left; margin: 0 -0.2em 0 0.2em; background-position: 0 -36px; }
+.button.no-text.arrowright.icon:hover:before,
+.button.no-text.arrowright.icon:focus:before,
+.button.no-text.arrowright.icon:active:before,
+.button.no-text.arrowright.icon.active:before { background-position: -12px -36px; }
 
 /* ------------------------------------------------------------------------------------------------------------- BUTTON EXTENSIONS */
 
